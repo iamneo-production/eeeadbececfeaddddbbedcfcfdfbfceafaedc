@@ -17,12 +17,7 @@
 		<java.version>11</java.version>
 	</properties>
 	<dependencies>
-	<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.12</version>
-        	<scope>test</scope>
-		</dependency>
+	
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -31,7 +26,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
@@ -58,6 +52,12 @@
                 </exclusion>
             </exclusions>
         </dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+        	<scope>test</scope>
+		</dependency>
         <dependency>
            <groupId>org.mockito</groupId>
            <artifactId>mockito-core</artifactId>
